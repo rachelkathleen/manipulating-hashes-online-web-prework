@@ -14,7 +14,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+  x = x
   puts x if contacts["Freddy Mercury"][:favorite_icecream_flavors].include?("strawberry")
 
 
