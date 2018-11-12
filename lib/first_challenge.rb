@@ -14,6 +14,7 @@ def first_challenge
   }
 
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+  contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
 
 
   #remember to return your newly altered contacts hash!
