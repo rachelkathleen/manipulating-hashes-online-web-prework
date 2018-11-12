@@ -10,6 +10,7 @@ def second_challenge
   values = []
   values << groceries.values
 end
+end
 values
 end
-end
+
