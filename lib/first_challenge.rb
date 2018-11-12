@@ -1,4 +1,5 @@
 require pry
+
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -14,7 +15,7 @@ def first_challenge
     }
   }
 
-
+  puts x if contacts["Freddy Mercury"][:favorite_icecream_flavors].include?("strawberry")
 
 
   #remember to return your newly altered contacts hash!
