@@ -9,7 +9,5 @@ def second_challenge
   #code your solution here!
   values = []
   values << groceries.values
-end
-end
-values
+  values
 end
